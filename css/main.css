@@ -1,0 +1,120 @@
+.info-product {
+  padding: 20px 20px 20px 20px;
+  border-bottom: 1px solid #ededef;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.info-product__img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.014);
+  border-radius: 12px;
+  margin-right: 20px;
+}
+
+.info-product__img img {
+  width: 50px;
+}
+
+.info-product__desc-title {
+  padding: 5px 0 10px 0;
+}
+
+.info-product__desc-price {
+  font-weight: bold;
+}
+
+.chat-buyer {
+  display: flex;
+  justify-content: end;
+  padding: 30px 0 3px 0;
+}
+
+.chat-buyer__text {
+  margin: 0 8px 0 16px;
+  background-color: #ff7e35;
+  padding: 15px 10px 15px 10px;
+  border: 1px #ff7e35;
+  border-radius: 20px 0px 20px 20px;
+  color: white;
+}
+
+.chat-buyer__time {
+  display: flex;
+  align-items: end;
+  margin-left: 40px;
+  font-size: 15px;
+}
+
+.chat-seller {
+  display: flex;
+  justify-content: start;
+  padding: 60px 0 60px 0;
+}
+
+.chat-seller__img {
+  display: flex;
+  align-items: start;
+  padding: 0 10px 0 20px;
+}
+
+.chat-seller__img img {
+  width: 20px;
+}
+
+.chat-seller__text {
+  margin: 0 16px 0 4px;
+  background-color: #eaebef;
+  padding: 15px 10px 15px 10px;
+  border: 1px #eaebef;
+  border-radius: 0px 20px 20px 20px;
+  color: black;
+}
+
+.chat-seller__time {
+  display: flex;
+  align-items: end;
+  margin-right: 80px;
+  font-size: 15px;
+}
+
+.schedule {
+  margin: 10px 3px 0 3px;
+  border: 1.5px solid #f6f6f6;
+  border-radius: 6px;
+  padding: 20px 30px 20px 15px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+}
+
+.schedule-detail__img {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  padding: 3px 3px 3px 3px;
+  margin-left: 15px;
+  margin-right: 10px;
+  background-color: #eaebef;
+  border: 1px solid #eaebef;
+  border-radius: 15px;
+}
+
+.schedule-detail__img img {
+  width: 18px;
+}
+
+.schedule-text__date {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.schedule-text__detail {
+  font-size: 15px;
+  margin-top: 10px;
+}

@@ -1,0 +1,77 @@
+header {
+  margin-top: 15px;
+  border-bottom: 1px solid #ededef;
+  padding-bottom: 10px;
+}
+
+.info-bar {
+  display: flex;
+  align-items: center;
+  padding: 0 10px 0 10px;
+}
+
+.info-bar__allow-left {
+  left: 10px;
+  margin: 0 10px 0 15px;
+  width: 20px;
+}
+
+.info-bar__icons-phone {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  left: 10px;
+  margin: 0 10px 0 300px;
+  width: 20px;
+}
+
+.info-bar__icons-ellipsis-vertical {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  left: 10px;
+  margin: 0 10px 0 350px;
+  width: 20px;
+}
+
+.info-bar__desc-detail {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-bar__desc {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-bar__desc-username {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.info-bar__desc-temperature {
+  margin-left: 6px;
+  padding: 4px 5px 2px 5px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 12px;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.info-bar__meta {
+  color: #c4c4c6;
+  padding: 6px 0 6px 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.info-bar__icons {
+  display: flex;
+  justify-content: space-around;
+  left: 10px;
+  margin: 0 10px 0 15px;
+  width: 20px;
+}
